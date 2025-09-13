@@ -35,7 +35,6 @@ data_window = None
 
 root = ctk.CTk()
 root.title('TAXI V 3.0')
-root.attributes('-topmost', False)  # Встановлюємо поверх усіх вікон
 root.focus_force()
 root_width = 410
 root_height = 790
